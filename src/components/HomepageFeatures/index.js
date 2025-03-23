@@ -4,29 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: '数学',
+    title: '优质',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        我们提供数学题。
+        我们致力于为优质原创的理科题目提供良好的发布平台，所有题目都经过人工审核，保质保量。
       </>
     ),
   },
   {
-    title: '物理',
+    title: '共建',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        我们提供物理题。
+        我们欢迎愿意提供优质高中原创题的同学们加盟出题组，为卧软杯贡献力量。可以点击右上角按钮加入我们。
       </>
     ),
   },
   {
-    title: '化学',
+    title: '共享',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        我们提供化学题。
+        我们允许其他组织自由转载我们的题目，希望借助我们的题目促进教育公平和共享。可以打开我们的GitHub仓库查阅题目源文件。
       </>
     ),
   },

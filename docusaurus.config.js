@@ -106,6 +106,8 @@ const config = {
             label: '题库',
           },
           {to: '/blog', label: '公告栏', position: 'left'},
+          {to: '/rank', label: '排行榜', position: 'left'},
+          {href: 'https://woruan.work/%E5%8A%A0%E5%85%A5%E5%BE%AE%E4%BF%A1%E7%BE%A4%E7%BB%84/', label: '加入我们', position: 'right'},
           {
             href: 'https://github.com/kellynew/woruan-prize',
             label: 'GitHub',
@@ -126,7 +128,11 @@ const config = {
               {
                 label: '公告栏',
                 to: '/blog',
-              }
+              },
+              {
+                label: '排行榜',
+                to: '/rank',
+              },
             ],
           },
           {
@@ -145,6 +151,10 @@ const config = {
           {
             title: '更多',
             items: [
+              {
+                label: '加入我们',
+                href: 'https://woruan.work/%E5%8A%A0%E5%85%A5%E5%BE%AE%E4%BF%A1%E7%BE%A4%E7%BB%84/',
+              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/kellynew/woruan-prize',
