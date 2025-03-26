@@ -91,7 +91,26 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
+      announcementBar: {
+        id: 'gxwtf',
+        content:
+          '<b>卧软杯全部题目已经成功上线<a target="_blank" href="http://2714.gxwtf.cn:3000/issue/list/view">广学五题坊</a>！🎉️</b>',
+        backgroundColor: '#fff',
+        textColor: '#000',
+        isCloseable: true,
+      },
+      docs: {
+        versionPersistence: 'localStorage',
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
+      },
       navbar: {
         title: '卧软杯',
         logo: {
@@ -101,7 +120,7 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'woruan',
             position: 'left',
             label: '题库',
           },
@@ -114,6 +133,7 @@ const config = {
             position: 'right',
           },
         ],
+        hideOnScroll: true,
       },
       footer: {
         style: 'dark',
