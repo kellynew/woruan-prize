@@ -100,8 +100,6 @@ const config = {
         id: 'gxwtf',
         content:
           '<b>卧软杯全部题目已经成功上线<a target="_blank" href="http://2714.gxwtf.cn:3000/issue/list/view">广学五题坊</a>！🎉️</b>',
-        backgroundColor: '#fff',
-        textColor: '#000',
         isCloseable: true,
       },
       docs: {
@@ -129,8 +127,9 @@ const config = {
           {href: 'https://woruan.work/%E5%8A%A0%E5%85%A5%E5%BE%AE%E4%BF%A1%E7%BE%A4%E7%BB%84/', label: '加入我们', position: 'right'},
           {
             href: 'https://github.com/kellynew/woruan-prize',
-            label: 'GitHub',
             position: 'right',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
           },
         ],
         hideOnScroll: true,
