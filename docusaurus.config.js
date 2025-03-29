@@ -27,7 +27,6 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'kellynew', // Usually your GitHub org/user name.
   projectName: 'woruan-prize', // Usually your repo name.
-  deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
@@ -99,7 +98,7 @@ const config = {
       announcementBar: {
         id: 'gxwtf',
         content:
-          '<b>卧软杯全部题目已经成功上线<a target="_blank" href="http://2714.gxwtf.cn:3000/issue/list/view">广学五题坊</a>！🎉️</b>',
+          '<b>卧软杯第0~3期题目已经成功上线<a target="_blank" href="http://2714.gxwtf.cn:3000/issue/list/view">广学五题坊</a>！🎉️</b>',
         isCloseable: true,
       },
       docs: {
