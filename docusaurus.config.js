@@ -125,6 +125,37 @@ const config = {
           {to: '/rank', label: '排行榜', position: 'left'},
           {href: 'https://woruan.work/%E5%8A%A0%E5%85%A5%E5%BE%AE%E4%BF%A1%E7%BE%A4%E7%BB%84/', label: '加入我们', position: 'right'},
           {
+            type: 'dropdown',
+            label: '小游戏',
+            position: 'left',
+            items: [
+              {
+                label: 'Hangman',
+                href: 'http://2714.gxwtf.cn:3000/game/hangman',
+              },
+              {
+                label: '诗词九宫格',
+                href: 'http://2714.gxwtf.cn:3000/game/gridGame',
+              },
+              {
+                label: 'Wordle',
+                href: 'http://2714.gxwtf.cn:3000/game/wordle',
+              },
+              {
+                label: '大学模拟器',
+                href: 'https://bijiazu.inari.site/UnivSimulator/',
+              },
+              {
+                label: 'Lexica',
+                href: 'https://lexica.github.io/web-lexica/',
+              },
+              {
+                label: '桌游合集',
+                href: 'https://game.hullqin.cn/',
+              }
+            ],
+          },
+          {
             href: 'https://github.com/kellynew/woruan-prize',
             position: 'right',
             className: 'header-github-link',
