@@ -96,9 +96,9 @@ const config = {
         respectPrefersColorScheme: true,
       },
       announcementBar: {
-        id: 'gxwtf',
+        id: 'feedback-20250331',
         content:
-          '<b>卧软杯第0~3期题目已经成功上线<a target="_blank" href="http://2714.gxwtf.cn:3000/issue/list/view">广学五题坊</a>！🎉️</b>',
+          '<b>提示：目前第二官网暂未设置反馈系统，如有问题请前往<a target="_blank" href="https://woruan.work/提出您的建议/">第一官网</a>反馈！</b>',
         isCloseable: true,
       },
       docs: {
@@ -123,7 +123,6 @@ const config = {
           },
           {to: '/blog', label: '公告栏', position: 'left'},
           {to: '/rank', label: '排行榜', position: 'left'},
-          {href: 'https://woruan.work/%E5%8A%A0%E5%85%A5%E5%BE%AE%E4%BF%A1%E7%BE%A4%E7%BB%84/', label: '加入我们', position: 'right'},
           {
             type: 'dropdown',
             label: '小游戏',
@@ -131,15 +130,15 @@ const config = {
             items: [
               {
                 label: 'Hangman',
-                href: 'http://2714.gxwtf.cn:3000/game/hangman',
+                href: 'http://gxwtf.cn/game/hangman',
               },
               {
                 label: '诗词九宫格',
-                href: 'http://2714.gxwtf.cn:3000/game/gridGame',
+                href: 'http://gxwtf.cn/game/gridGame',
               },
               {
                 label: 'Wordle',
-                href: 'http://2714.gxwtf.cn:3000/game/wordle',
+                href: 'http://gxwtf.cn/game/wordle',
               },
               {
                 label: '大学模拟器',
@@ -152,9 +151,14 @@ const config = {
               {
                 label: '桌游合集',
                 href: 'https://game.hullqin.cn/',
-              }
+              },
+              {
+                label: '2048',
+                href: 'https://play2048.co/',
+              },
             ],
           },
+          {href: 'https://woruan.work/加入微信群组/', label: '加入我们', position: 'right'},
           {
             href: 'https://github.com/kellynew/woruan-prize',
             position: 'right',
@@ -193,7 +197,7 @@ const config = {
               },
               {
                 label: '广学五题坊',
-                href: 'http://2714.gxwtf.cn:3000/',
+                href: 'http://gxwtf.cn/',
               },
             ],
           },
@@ -202,7 +206,7 @@ const config = {
             items: [
               {
                 label: '加入我们',
-                href: 'https://woruan.work/%E5%8A%A0%E5%85%A5%E5%BE%AE%E4%BF%A1%E7%BE%A4%E7%BB%84/',
+                href: 'https://woruan.work/加入微信群组/',
               },
               {
                 label: 'GitHub',
