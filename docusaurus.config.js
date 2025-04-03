@@ -130,15 +130,15 @@ const config = {
             items: [
               {
                 label: 'Hangman',
-                href: 'http://gxwtf.cn/game/hangman',
+                href: 'https://gxwtf.cn/game/hangman',
               },
               {
                 label: '诗词九宫格',
-                href: 'http://gxwtf.cn/game/gridGame',
+                href: 'https://gxwtf.cn/game/gridGame',
               },
               {
                 label: 'Wordle',
-                href: 'http://gxwtf.cn/game/wordle',
+                href: 'https://gxwtf.cn/game/wordle',
               },
               {
                 label: '大学模拟器',
@@ -197,7 +197,7 @@ const config = {
               },
               {
                 label: '广学五题坊',
-                href: 'http://gxwtf.cn/',
+                href: 'https://gxwtf.cn/',
               },
             ],
           },
