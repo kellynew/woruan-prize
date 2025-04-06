@@ -96,10 +96,10 @@ const config = {
         respectPrefersColorScheme: true,
       },
       announcementBar: {
-        id: 'feedback-20250331',
+        id: 'update-20250406',
         content:
-          '<b>提示：目前第二官网暂未设置反馈系统，如有问题请前往<a target="_blank" href="https://woruan.work/提出您的建议/">第一官网</a>反馈！</b>',
-        isCloseable: true,
+          '<b>⚠️由于官方停止支持，自2025年4月4日起，本站无法获取到卧软杯最新题目和答案，如有需要请前往<a target="_blank" href="https://woruan.work/">第一官网</a>查看！⚠️</b>',
+        isCloseable: false,
       },
       docs: {
         versionPersistence: 'localStorage',
